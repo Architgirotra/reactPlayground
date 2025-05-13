@@ -6,7 +6,7 @@ export default function Child({
 }: {
   getColor: (color: string) => void;
 }) {
-  const [currentColor, setCurrentColor] = useState("white");
+  const [currentColor, setCurrentColor] = useState("");
   useEffect(() => {
     getColor(currentColor);
   }, [currentColor]);

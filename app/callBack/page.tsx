@@ -3,7 +3,7 @@ import { useState } from "react";
 import Child from "./childComp";
 
 export default function Parent() {
-  const [color, setColor] = useState("white");
+  const [color, setColor] = useState("White");
   const getColor = (color: any) => {
     setColor(color);
   };
